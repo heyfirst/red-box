@@ -10,7 +10,7 @@ const config = require('./config')
 
 const app = server.listen(config.port, (err) => {
   if (err) throw err
-  console.log(`> Luxshop - GRAPHQL :: Ready at port ${config.port}.`)
+  console.log(`> RED BOX - GRAPHQL :: Ready at port ${config.port}.`)
 })
 // ==========
 
