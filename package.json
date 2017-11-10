@@ -12,12 +12,17 @@
     "prettier": "prettier-standard \"!(node_modules|.next)/**/*.js\""
   },
   "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "axios": "^0.17.0",
     "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "dotenv": "^4.0.0",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.7.2"
   },
-    "devDependencies": {
+  "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.0",
