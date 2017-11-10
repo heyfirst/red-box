@@ -1,0 +1,35 @@
+{
+  "name": "red-box",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/firstziiz/red-box.git",
+  "author": "Kanisorn S. <firstziiz.k@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server.js --watch ./server --watch server.js",
+    "start-staging": "pm2 start pm2.json --env staging",
+    "start": "pm2 start pm2.json --env production",
+    "prettier": "prettier-standard \"!(node_modules|.next)/**/*.js\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+  },
+    "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-config-standard-react": "^4.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.0",
+    "prettier": "1.7.4",
+    "prettier-standard": "^7.0.3"
+  }
+}
